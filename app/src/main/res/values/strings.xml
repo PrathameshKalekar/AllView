@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">All View</string>
+    <string name="toggle_button">Toggle Button</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="detail_form">Detail Form</string>
+    <string name="todo">TODO</string>
+    <string name="you_want_to_share_your_hobbies">You Want to Select Your hobbies ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="reading">Reading</string>
+    <string name="writing">Writing</string>
+    <string name="learning">Learning</string>
+    <string name="listening">Listening</string>
+    <string name="submit">Submit</string>
+</resources>

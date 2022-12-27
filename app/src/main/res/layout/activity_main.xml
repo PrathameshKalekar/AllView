@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtDetailForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/detail_form"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_your_name"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:contentDescription="@string/todo" />
+
+    <RadioGroup
+        android:id="@+id/rgGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rBtnMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/rBtnFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/female" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/you_want_to_share_your_hobbies"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        android:textOn="@string/yes"
+        android:textOff="@string/no"
+        android:text="@string/toggle_button" />
+
+    <RadioGroup
+        android:id="@+id/hobbiesSelectCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <CheckBox
+            android:id="@+id/cbReading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reading" />
+
+        <CheckBox
+            android:id="@+id/cbWriting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/writing" />
+
+        <CheckBox
+            android:id="@+id/cbLearning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/learning" />
+
+        <CheckBox
+            android:id="@+id/cbListening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/listening" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Click on Image To See Gender"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSubmitLast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="25dp"
+        android:text="@string/submit" />
+
+</LinearLayout>
